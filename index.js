@@ -19,10 +19,10 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
 app.get('/', function(req, res) {
-    res.render('Teste2')
+    res.render('Index')
 })
 app.get('/Teste2', function(req, res) {
-    res.render('Teste2')
+    res.render('Index')
 })
 
 app.get('/teste', function(req, res) {
