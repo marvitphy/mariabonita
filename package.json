@@ -1,33 +1,32 @@
 {
-  "name": "mb",
-  "version": "1.0.0",
-  "description": "Maria Bonita",
-  "main": "index.js",
-  "scripts": {
-    "test": "start",
-    "serve": "nodemon index.js"
-  },
-  "keywords": [
-    "beleza"
-  ],
-  "author": "Marcos Vitor",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "mercadopago": "^1.5.0",
-    "nodemon": "^2.0.6",
-    "stripe": "^8.121.0"
-  },
-  "devDependencies": {
-    "css-loader": "^5.0.1",
-    "extract-loader": "^5.1.0",
-    "file-loader": "^6.2.0",
-    "sass": "^1.29.0",
-    "sass-loader": "^10.0.5",
-    "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0"
-  }
+    "name": "mb",
+    "version": "1.0.0",
+    "description": "Maria Bonita",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "beleza"
+    ],
+    "author": "Marcos Vitor",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.5",
+        "express": "^4.17.1",
+        "mercadopago": "^1.5.0",
+        "nodemon": "^2.0.6",
+        "stripe": "^8.121.0"
+    },
+    "devDependencies": {
+        "css-loader": "^5.0.1",
+        "extract-loader": "^5.1.0",
+        "file-loader": "^6.2.0",
+        "sass": "^1.29.0",
+        "sass-loader": "^10.0.5",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.0"
+    }
 }

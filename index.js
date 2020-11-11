@@ -36,7 +36,7 @@ app.post("/charge", (req, res) => {
     try {
         stripe.customers
             .create({
-                name: 'Marcos',
+                name: 'Marcos Vitor',
                 source: req.body.stripeToken,
                 email: 'markdjay.contato@gmail.com'
             })
