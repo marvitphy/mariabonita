@@ -19,10 +19,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
 app.get('/', function(req, res) {
-    res.render('Home', {
-        key: Publishable_Key,
-        teste: 'Oi'
-    })
+    res.render('Home')
 })
 app.get('/Teste2', function(req, res) {
     res.render('Teste2')
