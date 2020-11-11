@@ -8,7 +8,7 @@ const app = express()
 var Publishable_Key = 'pk_test_51HgzC5CVfK3DvMdNEabuGw4jIdtGgx5HOxcqTURCegXBGTujZ4k0haZ8YgNtX3HAZM54Hnfaf1MfG7JuJ5ix5f8v00W0uJ2BSY'
 
 
-const port = process.env.PORT || 3000
+var port = Number(process.env.PORT || 3000);
 
 app.use(bodyparser.urlencoded({ extended: false }))
 app.use(bodyparser.json())
